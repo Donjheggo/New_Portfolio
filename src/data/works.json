@@ -1,0 +1,14 @@
+[
+  {
+    "image": "/images/scarav.jpg",
+    "title": "Job Search App",
+    "link": "https://scarav.com",
+    "description": "This is my first personal project that I developed, which can actually be used in the real world to find various job opportunities using modern web technologies."
+  },
+  {
+    "image": "/images/reportheld.jpg",
+    "title": "SWBT Reportheld Dashboard",
+    "link": "https://reportheld.netlify.app",
+    "description": "This is one of my tasks during my internship at GroupXS company. I revamped their SWBT reportheld app using the React JS framework and the MUI library."
+  }
+]
