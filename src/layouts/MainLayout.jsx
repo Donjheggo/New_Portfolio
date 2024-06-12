@@ -18,8 +18,8 @@ const MainLayout = () => {
           py: 2,
           height: "100vh",
           backgroundImage: `linear-gradient(
-              rgba(0, 0, 0, 0.5),  
-              rgba(0, 0, 0, 0.5)
+              rgba(0, 0, 0, 0.4),  
+              rgba(0, 0, 0, 0.2)
             ),
             url(/images/bg.jpg)`,
           backgroundSize: "cover",
