@@ -29,7 +29,7 @@ export default function MultiActionAreaCard({
           <Typography color="text.primary" variant="body1" gutterBottom>
             {title}
           </Typography>
-          <Typography color="text.secondary" variant="body2">
+          <Typography textAlign="justify" color="text.secondary" variant="body2">
             {description}
           </Typography>
         </Box>
