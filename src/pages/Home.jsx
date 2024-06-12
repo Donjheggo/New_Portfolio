@@ -20,16 +20,27 @@ export default function Home() {
       }}
     >
       <Box px={2} py={4}>
-        <Box
-          textAlign="center"
-          sx={{
-            paddingTop: "50px",
-          }}
-        >
-          <img src="/images/me.png" width="200px" />
+        <Box sx={{ display: "flex", justifyContent: "center" }}>
+          <Box
+            sx={{
+              background: "url(/images/hero_bg.png)",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              width: "200px",
+              textAlign: "center",
+            }}
+          >
+            <img
+              src="/images/me.png"
+              width="100%"
+              style={{ paddingLeft: "25px", paddingRight: "25px" }}
+            />
+          </Box>
         </Box>
 
         <Typography
+          pt={2}
           textAlign="center"
           gutterBottom
           variant="h5"
