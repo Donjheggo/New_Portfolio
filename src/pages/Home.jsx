@@ -34,7 +34,11 @@ export default function Home() {
             <img
               src="/images/me.png"
               width="100%"
-              style={{ paddingLeft: "25px", paddingRight: "25px" }}
+              style={{
+                paddingLeft: "25px",
+                paddingRight: "25px",
+                paddingTop: "17px",
+              }}
             />
           </Box>
         </Box>
