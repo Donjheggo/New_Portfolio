@@ -17,15 +17,15 @@ const Header = () => {
       icon: <GoHome />,
     },
     {
-      name: "Works",
-      link: "/works",
-      icon: <GrProjects size={25} style={{ padding: 3 }} />,
-    },
-    {
       name: "Curriculum Vitae",
       link: "/cv",
       icon: <GoProjectRoadmap />,
     },
+    {
+      name: "Works",
+      link: "/works",
+      icon: <GrProjects size={25} style={{ padding: 3 }} />,
+    }
   ];
 
   return (
@@ -36,6 +36,7 @@ const Header = () => {
         backgroundColor: "rgba(150, 150, 150, 0.1)",
         backdropFilter: "blur(10px)",
         borderRadius: "10px",
+        border: "solid 1px #454545",
       }}
     >
       <Container>
@@ -52,7 +53,7 @@ const Header = () => {
             {pages.map((page, index) => (
               <Tooltip key={index} title={page.name}>
                 <Link to={page.link} style={{ textDecoration: "none" }}>
-                  <IconButton style={{ color: "#ccc" }}>{page.icon}</IconButton>
+                  <IconButton>{page.icon}</IconButton>
                 </Link>
               </Tooltip>
             ))}

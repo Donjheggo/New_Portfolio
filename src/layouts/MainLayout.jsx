@@ -5,10 +5,8 @@ import { MainTheme } from "../themes";
 import Header from "../components/Header";
 
 const MainLayout = () => {
-  const darkMode = true;
-
   return (
-    <ThemeProvider theme={MainTheme(darkMode)}>
+    <ThemeProvider theme={MainTheme()}>
       <CssBaseline />
       <Box
         component="section"

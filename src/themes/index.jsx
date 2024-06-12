@@ -1,40 +1,29 @@
 import { createTheme } from "@mui/material/styles";
 
-export const MainTheme = (darkMode) =>
+export const MainTheme = () =>
   createTheme({
     palette: {
-      mode: darkMode ? "dark" : "light",
-      background: {
-        default: darkMode ? "#29323c" : "#fff",
-        paper: darkMode ? "#29323c" : "#fff",
-      },
-      primary: {
-        main: darkMode ? "#ccc" : "#29323c",
-      },
+      mode: "dark",
       text: {
-        primary: darkMode ? "#ccc" : "#29323c",
+        primary: "#fff",
+        secondary: "#ccc",
       },
     },
     components: {
       MuiIconButton: {
         styleOverrides: {
           root: {
-            color: "inherit",
-          },
-        },
-      },
-      MuiAppBar: {
-        styleOverrides: {
-          root: {
-            color: darkMode ? "#ccc" : "#29323c",
+            color: "#ccc",
           },
         },
       },
       MuiTypography: {
         styleOverrides: {
           root: {
-            color: darkMode ? "#ccc" : "#535e6b",
-            fontWeight: '200'
+            color: "#ccc"
+          },
+          body2: {
+            fontWeight: 400,
           },
         },
       },

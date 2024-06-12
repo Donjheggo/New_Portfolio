@@ -11,9 +11,12 @@ export default function CV() {
           backgroundColor: "rgba(150, 150, 150, 0.1)",
           backdropFilter: "blur(10px)",
           borderRadius: "10px",
+          border: "solid 1px #454545",
         }}
       >
-        <Typography sx={{ fontWeight: "medium" }}>Objectives</Typography>
+        <Typography variant="body1" color="text.primary">
+          Objectives
+        </Typography>
         <Box sx={{ fontWeight: "light" }}>
           <Typography textAlign="justify" pt={2}>
             Seeking a challenging career with a progressive organization that
@@ -22,6 +25,8 @@ export default function CV() {
           </Typography>
         </Box>
         <Typography
+          variant="body1"
+          color="text.primary"
           sx={{
             borderTop: "solid 1px #494949",
             borderTopStyle: "dashed",
@@ -40,6 +45,8 @@ export default function CV() {
           <br />
         </Typography>
         <Typography
+          variant="body1"
+          color="text.primary"
           sx={{
             borderTop: "solid 1px #494949",
             borderTopStyle: "dashed",
@@ -62,6 +69,8 @@ export default function CV() {
           Internship Certificate
         </Typography>
         <Typography
+          variant="body1"
+          color="text.primary"
           sx={{
             borderTop: "solid 1px #494949",
             borderTopStyle: "dashed",
@@ -71,7 +80,7 @@ export default function CV() {
         >
           Skills
         </Typography>
-        <ul style={{ paddingBottom: "20px" }}>
+        <ul>
           <li>
             <Typography variant="subtitle2">HTML</Typography>
           </li>
@@ -98,14 +107,17 @@ export default function CV() {
           backgroundColor: "rgba(150, 150, 150, 0.1)",
           backdropFilter: "blur(10px)",
           borderRadius: "10px",
+          border: "solid 1px #454545",
+          mt: "10px",
         }}
       >
         <Button
           component="a"
-          href="/curriculum_vitae"
+          href="/files/Curriculum_Vitae.pdf"
           target="_blank"
           startIcon={<DownloadIcon />}
           fullWidth
+          sx={{ color: "inherit" }}
         >
           Download CV
         </Button>
