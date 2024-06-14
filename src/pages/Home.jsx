@@ -77,8 +77,8 @@ export default function Home() {
           color="text.secondary"
           pt={5}
         >
-          Hello! I'm CJ, a passionate front-end developer that specialize in
-          creating engaging, responsive, modern and user-friendly web
+          Hello! I'm Christian, a passionate front-end developer who specializes
+          in creating engaging, responsive, modern, and user-friendly web
           applications. My expertise lies in translating complex designs into
           clean and efficient code, ensuring seamless user experiences across
           all devices.
