@@ -21,7 +21,7 @@ export default function CV() {
           <Typography textAlign="justify" pt={2}>
             Seeking a challenging career with a progressive organization that
             provides an opportunity to capitalize on my skills & abilities in
-            the field of web development.
+            the field of technology.
           </Typography>
         </Box>
         <Typography
