@@ -17,9 +17,9 @@ const MainLayout = () => {
           px: 5,
           py: 2,
           height: "100vh",
-          backgroundImage: `linear-gradient(
+          backgroundImage: `linear-gradient(to bottom,
               rgba(0, 0, 0, 0.4),  
-              rgba(0, 0, 0, 0.2)
+              rgba(0, 0, 0, 0.8)
             ),
             url(/images/bg.jpg)`,
           backgroundSize: "cover",
@@ -29,7 +29,14 @@ const MainLayout = () => {
       >
         <Box sx={{ width: { sm: "80%", md: "600px" } }}>
           <Header />
-          <Box sx={{ display: "flex", justifyContent: "center", pt: 2 }}>
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              pt: 2,
+              maxHeight: "100vh",
+            }}
+          >
             <Outlet />
           </Box>
         </Box>

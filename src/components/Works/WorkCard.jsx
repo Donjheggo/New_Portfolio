@@ -40,19 +40,20 @@ export default function MultiActionAreaCard({
         backgroundColor: "rgba(150, 150, 150, 0.1)",
         backdropFilter: "blur(10px)",
         borderRadius: "10px",
-        border: "solid 1px #454545",
+        border: "solid 1px #454545"
       }}
     >
-      <Box sx={{ paddingX: "30px", paddingBottom: "20px" }}>
-        <Box textAlign="center" sx={{ paddingY: "10px" }}>
+      <Box sx={{ paddingBottom: "20px" }}>
+        <Box textAlign="center">
           <img 
             onClick={handleImageClick}
             src={image}
-            width="50%"
-            style={{ borderRadius: "5px", marginTop: "10px", cursor: "pointer" }}
+            width="100%"
+            height={135}
+            style={{ borderRadius: "5px", cursor: "pointer" }}
           />
         </Box>
-        <Box>
+        <Box sx={{px: 1}}>
           <Typography color="text.primary" variant="body1" gutterBottom>
             {title}
           </Typography>

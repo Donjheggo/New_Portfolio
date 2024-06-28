@@ -3,12 +3,37 @@
     "image": "/images/scarav.jpg",
     "title": "Job Search App",
     "link": "https://scarav.com",
-    "description": "This is my first personal project that I developed, which can actually be used in the real world to find various job opportunities using modern web technologies."
+    "description": "Javascript, ReactJS, Material UI"
+  },
+  {
+    "image": "/images/product_search.jpg",
+    "title": "Product Search App",
+    "link": "https://product-search-pied.vercel.app/",
+    "description": "Typescript, ReactJS, Material UI"
+  },
+  {
+    "image": "/images/voting_app.jpg",
+    "title": "Voting Application",
+    "link": "https://reportheld.netlify.app",
+    "description": "Python, Django, Sqlite3"
+  },
+  {
+    "image": "/images/water_billing.jpg",
+    "title": "Water Billing",
+    "link": "https://reportheld.netlify.app",
+    "description": "Python, Django, Sqlite3"
+  },
+  {
+    "image": "/images/clinic.jpg",
+    "title": "Clinic Management",
+    "link": "https://github.com/Donjheggo/ClinicManagement",
+    "description": "Python, Django, Sqlite3"
   },
   {
     "image": "/images/reportheld.jpg",
     "title": "SWBT Reportheld Dashboard",
     "link": "https://reportheld.netlify.app",
-    "description": "This is one of my tasks during my internship at GroupXS company. I revamped their SWBT reportheld app using the React JS framework and the MUI library."
+    "description": "Javascript, ReactJS, Material UI"
   }
 ]
+
