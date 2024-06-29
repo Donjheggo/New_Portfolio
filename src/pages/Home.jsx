@@ -1,13 +1,30 @@
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Typography, Button, Tooltip } from "@mui/material";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
-import { RiJavascriptLine } from "react-icons/ri";
+import { RiJavascriptFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import { BiLogoTypescript } from "react-icons/bi";
+import { TbBrandNextjs } from "react-icons/tb";
+import { DiMongodb } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
 import HackerText from "../utils/HackerText";
+
+ const techStack = [
+  { name: "HTML5", icon: <FaHtml5 /> },
+  { name: "CSS3", icon: <IoLogoCss3 /> },
+  { name: "Javascript", icon: <RiJavascriptFill size={24} /> },
+  { name: "Typescript", icon: <BiLogoTypescript size={24} /> },
+  { name: "React JS", icon: <FaReact /> },
+  { name: "Next JS", icon: <TbBrandNextjs /> },
+  { name: "Redux", icon: <SiRedux /> },
+  { name: "Material UI", icon: <SiMui /> },
+  { name: "Mongo DB", icon: <DiMongodb /> },
+  { name: "Postgre SQL", icon: <BiLogoPostgresql /> },
+];
 
 export default function Home() {
   return (
@@ -54,21 +71,21 @@ export default function Home() {
         >
           Christian Jhegg Fermilan
         </Typography>
-        <HackerText text={"Front-end Developer"} />
+        <HackerText text={"Front-end / Fullstack Developer"} />
         <Box
           sx={{
             display: "flex",
             justifyContent: "center",
+            alignItems: "center",
             gap: "5px",
             fontSize: "20px",
           }}
         >
-          <FaHtml5 />
-          <IoLogoCss3 />
-          <RiJavascriptLine />
-          <FaReact />
-          <SiRedux />
-          <SiMui />
+          {techStack.map((item, index) => (
+            <Tooltip key={index} title={item.name}>
+              <span>{item.icon}</span>
+            </Tooltip>
+          ))}
         </Box>
         <Typography
           px={2}
