@@ -1,6 +1,19 @@
 import { Button, Typography, Box } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 
+const skills = [
+  "HTML5",
+  "CSS3",
+  "Javascript",
+  "Typescript",
+  "React JS",
+  "Next JS",
+  "Redux",
+  "Material UI",
+  "Mongo DB",
+  "Postgre SQL",
+];
+
 export default function CV() {
   return (
     <Box pb={1}>
@@ -31,7 +44,7 @@ export default function CV() {
             borderTop: "solid 1px #494949",
             borderTopStyle: "dashed",
           }}
-          mt={4}
+          mt={2}
           pt={2}
         >
           Education
@@ -51,7 +64,7 @@ export default function CV() {
             borderTop: "solid 1px #494949",
             borderTopStyle: "dashed",
           }}
-          mt={4}
+          mt={2}
           pt={2}
         >
           Experience
@@ -75,30 +88,17 @@ export default function CV() {
             borderTop: "solid 1px #494949",
             borderTopStyle: "dashed",
           }}
-          mt={4}
+          mt={2}
           pt={2}
         >
           Skills
         </Typography>
         <ul>
-          <li>
-            <Typography variant="subtitle2">HTML</Typography>
-          </li>
-          <li>
-            <Typography variant="subtitle2">CSS</Typography>
-          </li>
-          <li>
-            <Typography variant="subtitle2">Javascript</Typography>
-          </li>
-          <li>
-            <Typography variant="subtitle2">React JS</Typography>
-          </li>
-          <li>
-            <Typography variant="subtitle2">Redux</Typography>
-          </li>
-          <li>
-            <Typography variant="subtitle2">Material UI</Typography>
-          </li>
+          {skills.map((item, index) => (
+            <li key={index}>
+              <Typography variant="body2">{item}</Typography>
+            </li>
+          ))}
         </ul>
       </Box>
       <Box

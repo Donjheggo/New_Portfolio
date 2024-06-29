@@ -13,17 +13,17 @@ import { DiMongodb } from "react-icons/di";
 import { BiLogoPostgresql } from "react-icons/bi";
 import HackerText from "../utils/HackerText";
 
- const techStack = [
+const techStack = [
   { name: "HTML5", icon: <FaHtml5 /> },
   { name: "CSS3", icon: <IoLogoCss3 /> },
   { name: "Javascript", icon: <RiJavascriptFill size={24} /> },
   { name: "Typescript", icon: <BiLogoTypescript size={24} /> },
   { name: "React JS", icon: <FaReact /> },
-  { name: "Next JS", icon: <TbBrandNextjs /> },
+  { name: "Next JS", icon: <TbBrandNextjs size={23} /> },
   { name: "Redux", icon: <SiRedux /> },
   { name: "Material UI", icon: <SiMui /> },
   { name: "Mongo DB", icon: <DiMongodb /> },
-  { name: "Postgre SQL", icon: <BiLogoPostgresql /> },
+  { name: "Postgre SQL", icon: <BiLogoPostgresql size={23} /> },
 ];
 
 export default function Home() {
