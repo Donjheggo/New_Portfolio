@@ -14,13 +14,13 @@
   {
     "image": "/images/voting_app.jpg",
     "title": "Voting Application",
-    "link": "https://reportheld.netlify.app",
+    "link": "https://github.com/Donjheggo/OnlineVotingSystem",
     "description": "Python, Django, Sqlite3"
   },
   {
     "image": "/images/water_billing.jpg",
     "title": "Water Billing",
-    "link": "https://reportheld.netlify.app",
+    "link": "https://github.com/Donjheggo/WaterBilling",
     "description": "Python, Django, Sqlite3"
   },
   {
